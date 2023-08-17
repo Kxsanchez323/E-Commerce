@@ -368,6 +368,11 @@ button:active {
     min-height: 100vh;
   }
   
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
   #books__main {
     flex: 1;
   }

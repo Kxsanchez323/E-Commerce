@@ -357,14 +357,14 @@
               <h2 class="section__title books__header--title">
                 All <span class="purple">Books</span>
               </h2>
-              <select id="filter">
+              <select id="filter" onchange="filterBooks(event)">
                 <option value="" disabled selected>Sort</option>
                 <option value="LOW_TO_HIGH">Price, Low to High</option>
                 <option value="High_TO_LOW">Price, High to Low</option>
                 <option value="RATING">Rating</option>
               </select>
             </div>
-              <div class="books">
+              <div class="All__books">
                 
               </div>
             </div>
@@ -380,7 +380,7 @@
             <div class="row row__column">
                    <a href="#">
                     <figure class="footer__logo">
-                    <img src="/assets/Library.svg" class="footer__logo--img" alt="">
+                    <img src="./assets/Library.svg" class="footer__logo--img" alt="">
                 </figure>
             </a>
             <div class="footer__social__list">
